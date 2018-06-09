@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    android:padding="20dp"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/playgame"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:text=" Play"
+        android:background="@null"
+        android:id="@+id/playbutton" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/instructions"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:text="Instructions "
+        android:background="@null"
+        android:id="@+id/instbutton" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/halloffame"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:text=" Hall of Fame"
+        android:background="@null"
+        android:id="@+id/hofbutton" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/settings"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:text="Settings "
+        android:background="@null"
+        android:id="@+id/settingsbutton" />
+
+</LinearLayout>

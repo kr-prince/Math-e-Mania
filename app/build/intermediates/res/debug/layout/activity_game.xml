@@ -1,0 +1,130 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamebackground"
+    android:padding="10dp"
+    tools:context=".MainActivity" >
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:textColor="#ff0000"
+            android:text="00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/counter" />
+
+        <ProgressBar
+            android:layout_marginTop="3dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35dp"
+        android:text=""
+        android:id="@+id/problem"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_weight="80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="20dp"
+            android:id="@+id/score"
+            android:layout_gravity="center_vertical"
+            android:gravity="left" />
+
+        <TextView
+            android:layout_weight="20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+            android:text="***"
+            android:textSize="40dp"
+            android:id="@+id/lives"
+            android:gravity="right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:textSize="30dp"
+            android:text="+"
+            android:background="#cfd2d5"
+            android:id="@+id/addsign" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:textSize="30dp"
+            android:text="-"
+            android:background="#cfd2d5"
+            android:id="@+id/subsign" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:textSize="30dp"
+            android:textAllCaps="false"
+            android:text="x"
+            android:background="#cfd2d5"
+            android:id="@+id/multsign" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:textSize="30dp"
+            android:text="/"
+            android:background="#cfd2d5"
+            android:id="@+id/divsign" />
+
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Prince/AndroidStudioProjects/Math-e-Mania/app/src/main/res/layout/activity_game.xml -->
